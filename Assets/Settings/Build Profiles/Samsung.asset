@@ -17,7 +17,7 @@ MonoBehaviour:
   m_Subtarget: 0
   m_PlatformId: b9b35072a6f44c2e863f17467ea3dc13
   m_PlatformBuildProfile:
-    rid: 6018243244104876228
+    rid: 6018243244752371905
   m_OverrideGlobalSceneList: 0
   m_Scenes: []
   m_ScriptingDefines: []
@@ -29,7 +29,7 @@ MonoBehaviour:
     - line: '|   productGUID: 12f26a3366ce1fd4698a4b7f042ef15f'
     - line: '|   AndroidProfiler: 0'
     - line: '|   AndroidFilterTouchesWhenObscured: 0'
-    - line: '|   AndroidEnableSustainedPerformanceMode: 1'
+    - line: '|   AndroidEnableSustainedPerformanceMode: 0'
     - line: '|   defaultScreenOrientation: 4'
     - line: '|   targetDevice: 2'
     - line: '|   useOnDemandResources: 0'
@@ -70,7 +70,7 @@ MonoBehaviour:
     - line: '|   defaultScreenWidthWeb: 960'
     - line: '|   defaultScreenHeightWeb: 600'
     - line: '|   m_StereoRenderingPath: 0'
-    - line: '|   m_ActiveColorSpace: 1'
+    - line: '|   m_ActiveColorSpace: 0'
     - line: '|   unsupportedMSAAFallback: 0'
     - line: '|   m_SpriteBatchMaxVertexCount: 65535'
     - line: '|   m_SpriteBatchVertexThreshold: 300'
@@ -92,20 +92,20 @@ MonoBehaviour:
     - line: '|   disableDepthAndStencilBuffers: 0'
     - line: '|   androidStartInFullscreen: 1'
     - line: '|   androidRenderOutsideSafeArea: 1'
-    - line: '|   androidUseSwappy: 0'
+    - line: '|   androidUseSwappy: 1'
     - line: '|   androidBlitType: 0'
-    - line: '|   androidResizeableActivity: 1'
-    - line: '|   androidDefaultWindowWidth: 1920'
-    - line: '|   androidDefaultWindowHeight: 1080'
-    - line: '|   androidMinimumWindowWidth: 400'
-    - line: '|   androidMinimumWindowHeight: 300'
+    - line: '|   androidResizeableActivity: 0'
+    - line: '|   androidDefaultWindowWidth: 1280'
+    - line: '|   androidDefaultWindowHeight: 720'
+    - line: '|   androidMinimumWindowWidth: 1280'
+    - line: '|   androidMinimumWindowHeight: 720'
     - line: '|   androidFullscreenMode: 1'
     - line: '|   androidAutoRotationBehavior: 1'
     - line: '|   androidPredictiveBackSupport: 1'
     - line: '|   androidApplicationEntry: 1'
     - line: '|   defaultIsNativeResolution: 1'
     - line: '|   macRetinaSupport: 1'
-    - line: '|   runInBackground: 0'
+    - line: '|   runInBackground: 1'
     - line: '|   muteOtherAudioSources: 0'
     - line: '|   Prepare IOS For Recording: 0'
     - line: '|   Force IOS Speakers When Recording: 0'
@@ -196,7 +196,7 @@ MonoBehaviour:
     - line: '|   AndroidBundleVersionCode: 1'
     - line: '|   AndroidMinSdkVersion: 23'
     - line: '|   AndroidTargetSdkVersion: 0'
-    - line: '|   AndroidPreferredInstallLocation: 0'
+    - line: '|   AndroidPreferredInstallLocation: 1'
     - line: '|   aotOptions: '
     - line: '|   stripEngineCode: 1'
     - line: '|   iPhoneStrippingLevel: 0'
@@ -457,7 +457,7 @@ MonoBehaviour:
     - line: '|     m_Automatic: 1'
     - line: '|   - m_BuildTarget: AndroidPlayer'
     - line: '|     m_APIs: 0b000000'
-    - line: '|     m_Automatic: 1'
+    - line: '|     m_Automatic: 0'
     - line: '|   - m_BuildTarget: WindowsStandaloneSupport'
     - line: '|     m_APIs: 0200000012000000'
     - line: '|     m_Automatic: 0'
@@ -883,7 +883,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 6018243244104876228
+    - rid: 6018243244752371905
       type: {class: AndroidPlatformBuildSettings, ns: UnityEditor.Android, asm: UnityEditor.Android.Extensions}
       data:
         m_Development: 1
